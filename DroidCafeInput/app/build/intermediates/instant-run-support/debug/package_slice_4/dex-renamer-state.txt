@@ -1,0 +1,4 @@
+#Tue Oct 02 17:35:11 ICT 2018
+base.0=/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
