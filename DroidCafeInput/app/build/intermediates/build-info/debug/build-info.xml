@@ -2,27 +2,37 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="FULL"
+    build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.0.1"
-    timestamp="1538638174655"
+    timestamp="1538640118806"
     token="-8489330908212190428"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1305" />
+        duration="483" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="146" />
+        duration="59" />
     <task
         name="verifier"
-        duration="53" />
+        duration="104" />
 
+    <artifact
+        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
@@ -30,35 +40,17 @@
         location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
         location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
@@ -100,6 +92,39 @@
         <artifact
             location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1538640118806"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/hoangnguyen/Sides/android-play/DroidCafeInput/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
