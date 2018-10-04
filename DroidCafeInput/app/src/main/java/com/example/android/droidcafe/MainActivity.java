@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         // This comment suppresses the Android Studio warning about simplifying
         // the return statements.
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_order) {
             return true;
         }
 
